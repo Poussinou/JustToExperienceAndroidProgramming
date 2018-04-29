@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="foss.poussinou.textview.MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btnMain_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir TextView" />
+
+    <Button
+        android:id="@+id/btnMain_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir ListView" />
+
+    <Button
+        android:id="@+id/btnMain_ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir ImageView" />
+
+    <Button
+        android:id="@+id/btnMain_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir ScrollView" />
+
+    <Button
+        android:id="@+id/btnMain_SharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir SharedPreferences" />
+</LinearLayout>

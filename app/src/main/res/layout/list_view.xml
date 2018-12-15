@@ -3,20 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <EditText
+        android:id="@+id/searchFilterduListView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Search here"
+        android:textSize="10sp" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="343dp" />
+        android:layout_height="343dp"
+        android:layout_above="@+id/btnListViewRetour"
+        android:layout_below="@+id/searchFilterduListView" />
 
     <Button
         android:id="@+id/btnListViewRetour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="Retour"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginEnd="135dp"
-        android:layout_marginRight="135dp"
-        android:text="Retour" />
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

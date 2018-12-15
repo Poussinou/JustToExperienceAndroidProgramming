@@ -3,33 +3,51 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnMain_TextView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Voir TextView" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnMain_ListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Voir ListView" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/btnMain_ImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Voir ImageView" />
+            <Button
+                android:id="@+id/btnMain_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voir ListView" />
 
-    <Button
-        android:id="@+id/btnMain_ScrollView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Voir ScrollView" />
+            <Button
+                android:id="@+id/btnMain_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voir TextView" />
 
-    <Button
-        android:id="@+id/btnMain_SharedPreferences"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Voir SharedPreferences" />
+            <Button
+                android:id="@+id/btnMain_SharedPreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voir SharedPreferences" />
+
+            <Button
+                android:id="@+id/btnMain_ScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voir ScrollView" />
+
+            <Button
+                android:id="@+id/btnMain_ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voir ImageView" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
